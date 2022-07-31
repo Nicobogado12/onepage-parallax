@@ -1,0 +1,91 @@
+@import url('http://fonts.cdnfonts.com/css/sf-funk-master');
+@import url('http://fonts.cdnfonts.com/css/evogria');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ 
+}
+
+.slider video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: contain;
+    object-position: center;
+}
+
+h1{
+    font-family: 'SF Funk Master', sans-serif;
+    font-size: 8rem;
+}
+
+p{
+    font-family: 'Evogria', sans-serif;
+    font-size: 2rem;
+}
+
+
+#box2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    }
+
+#box3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+   }
+
+#box4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+   }
+
+
+
+   h2{
+    font-family: 'Evogria', sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-attachment: fixed;
+   }
+
+.space{
+    height: 2rem;
+    background-color: #fff;
+}
